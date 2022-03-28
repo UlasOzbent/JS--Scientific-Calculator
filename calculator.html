@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+    <header class="bg-dark-green">
+
+        <div class="container">
+            <h1 class="heading-big">Calculator Application</h1>
+
+        </div>
+
+    </header>
+
+    <section id="op-area">
+        <div class="op-center">
+            <div class="op">
+                <input type="text" id="1" placeholder="Number-1">
+                <div>&nbsp;
+                    <i class="fas fa-plus"></i>
+                    &nbsp; </div>
+                <input type="text" id="2" placeholder="Number-2">
+                <div> &nbsp;
+                    <i class="fas fa-equals"></i>
+                    &nbsp; </div>
+                <button type="submit" id="send-1" class="btn btn-block">Send</button>
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <input type="text" id="result-1" placeholder="Result">
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <button type="submit" id="clear-1" class="btn btn-block">Clear</button>
+            </div>
+
+            <div class="op">
+                <input type="text" id="3" placeholder="Number-1">
+                <div>&nbsp;
+                    <i class="fas fa-minus"></i>
+                    &nbsp; </div>
+                <input type="text" id="4" placeholder="Number-2">
+                <div> &nbsp;
+                    <i class="fas fa-equals"></i>
+                    &nbsp; </div>
+                <button type="submit" id="send-2" class="btn btn-block">Send</button>
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <input type="text" id="result-2" placeholder="Result">
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <button type="submit" id="clear-2" class="btn btn-block">Clear</button>
+            </div>
+
+            <div class="op">
+
+                <input type="text" id="5" placeholder="Number-1">
+                <div>&nbsp; 
+                    <i class="fas fa-times"></i>
+                    &nbsp; </div>
+                <input type="text" id="6" placeholder="Number-2">
+                <div> &nbsp;
+                    <i class="fas fa-equals"></i>
+                    &nbsp; </div>
+                <button type="submit" id="send-3" class="btn btn-block">Send</button>
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <input type="text" id="result-3" placeholder="Result">
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <button type="submit" id="clear-3" class="btn btn-block">Clear</button>
+            </div>
+
+            <div class="op">
+
+                <input type="text" id="7" placeholder="Number-1">
+                <div>&nbsp;
+                    <i class="fas fa-divide"></i>
+                    &nbsp; </div>
+                <input type="text" id="8" placeholder="Number-2">
+                <div> &nbsp;
+                    <i class="fas fa-equals"></i>
+                    &nbsp; </div>
+                <button type="submit" id="send-4" class="btn btn-block">Send</button>
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>         
+                <input type="text" id="result-4" placeholder="Result">
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <button type="submit" id="clear-4" class="btn btn-block">Clear</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+        <section id ="photo">
+
+            <img src="/Basics/Console/math.jpg" alt="Calculator">
+
+        </section>
+
+        <section id="op-area">
+            <div class="op-center">
+
+                <div class="op">
+
+                    <input type="text" id="9" placeholder="Number">
+                    <div>&nbsp;
+                        <i class="fas fa-superscript"></i>
+                        &nbsp; </div>
+                    <input type="text" id="10" placeholder="Power of the Number">
+                    <div> &nbsp;
+                        <i class="fas fa-equals"></i>
+                        &nbsp; </div>
+                    <button type="submit" id="send-5" class="btn btn-block">Send</button>
+                    <div>&nbsp;&nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                        &nbsp;&nbsp;</div>
+                    <input type="text" id="result-5" placeholder="Result">
+                    <div>&nbsp;&nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                        &nbsp;&nbsp;</div>
+                    <button type="submit" id="clear-5" class="btn btn-block">Clear</button>
+                </div>
+
+                <div class="op">
+                    
+                    <input type="text" id="11" placeholder="Number">
+                    <div>&nbsp;
+                        <i class="fas fa-square-root-alt"></i>
+                        &nbsp; </div>
+                    <input type="text" id="12" placeholder="Root of the Number">
+                    <div> &nbsp;
+                        <i class="fas fa-equals"></i>
+                        &nbsp; </div>
+                    <button type="submit" id="send-6" class="btn btn-block">Send</button>
+                    <div>&nbsp;&nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                        &nbsp;&nbsp;</div>
+                    <input type="text" id="result-6" placeholder="Result">
+                    <div>&nbsp;&nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                        &nbsp;&nbsp;</div>
+                    <button type="submit" id="clear-6" class="btn btn-block">Clear</button>
+                </div>
+
+                <div class="op">
+                    
+                    <input type="text" id="13" placeholder="Number">
+                    <div>&nbsp;
+                        <i class="fas fa-percentage"></i>
+                        &nbsp; </div>
+                    <input type="text" id="14" placeholder="Percentage of the Number">
+                    <div> &nbsp;
+                        <i class="fas fa-equals"></i>
+                        &nbsp; </div>
+                    <button type="submit" id="send-7" class="btn btn-block">Send</button>
+                    <div>&nbsp;&nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                        &nbsp;&nbsp;</div>
+                    <input type="text" id="result-7" placeholder="Result">
+                    <div>&nbsp;&nbsp;
+                        <i class="fas fa-arrow-right"></i>
+                        &nbsp;&nbsp;</div>
+                    <button type="submit" id="clear-7" class="btn btn-block">Clear</button>
+                </div>
+
+
+
+
+        </section>
+
+        <section id="photo">
+
+            <img src ="/Basics/Console/math1.jpg">
+
+        </section>
+
+        <section id = "op-area">
+            <div class="op-center">
+
+        <div class="op">
+                    
+            <input type="text" id="15" placeholder="Number">
+            <div>&nbsp;
+                <i class="fas fa-calculator"></i>
+                &nbsp; </div>
+                <div>
+                    <h5>Sinus</h5>
+                </div>
+            <div> &nbsp;
+                <i class="fas fa-equals"></i>
+                &nbsp; </div>
+            <button type="submit" id="send-8" class="btn btn-block">Send</button>
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <input type="text" id="result-8" placeholder="Result">
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <button type="submit" id="clear-8" class="btn btn-block">Clear</button>
+        </div>
+
+        <div class="op">
+
+             <input type="text" id="16" placeholder="Number">
+             <div>&nbsp;
+                <i class="fas fa-calculator"></i>
+                &nbsp; </div>
+                <div>
+                    <h5>Cosinus</h5>
+                </div>
+            <div> &nbsp;
+                <i class="fas fa-equals"></i>
+                &nbsp; </div>
+            <button type="submit" id="send-9" class="btn btn-block">Send</button>
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <input type="text" id="result-9" placeholder="Result">
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <button type="submit" id="clear-9" class="btn btn-block">Clear</button>
+        </div>
+
+        <div class ="op">
+
+            <input type="text" id="17" placeholder="Number">
+             <div>&nbsp;
+                <i class="fas fa-calculator"></i>
+                &nbsp; </div>
+                <div>
+                    <h5>Tanjant</h5>
+                </div>
+            <div> &nbsp;
+                <i class="fas fa-equals"></i>
+                &nbsp; </div>
+            <button type="submit" id="send-10" class="btn btn-block">Send</button>
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <input type="text" id="result-10" placeholder="Result">
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <button type="submit" id="clear-10" class="btn btn-block">Clear</button>
+        </div>
+
+        <div class="op">
+            <input type="text" id="18" placeholder="Number">
+             <div>&nbsp;
+                <i class="fas fa-calculator"></i>
+                &nbsp; </div>
+                <div>
+                    <h5>Cotanjant</h5>
+                </div>
+            <div> &nbsp;
+                <i class="fas fa-equals"></i>
+                &nbsp; </div>
+            <button type="submit" id="send-11" class="btn btn-block">Send</button>
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <input type="text" id="result-11" placeholder="Result">
+            <div>&nbsp;&nbsp;
+                <i class="fas fa-arrow-right"></i>
+                &nbsp;&nbsp;</div>
+            <button type="submit" id="clear-11" class="btn btn-block">Clear</button>
+        <div>
+    </div>
+    </section>
+
+
+    <section id="photo">
+
+        <img src ="/Basics/Console/math2.jpg">
+
+    </section>
+
+    <section id="op-area">
+        <div class="op-center">
+            <div class="op">
+                <input type="text" id="19" placeholder="Number">
+                <div>&nbsp;
+                    <i class="fas fa-calculator"></i>
+                    &nbsp; </div>
+                <input type="text" id="20" placeholder="Base">
+                <div> &nbsp;
+                    <i class="fas fa-calculator"></i>
+                    &nbsp; </div>
+                    <div>
+                        <h5>Logarithm</h5>
+                    </div>
+                    <i class="fas fa-equals"></i>
+                    &nbsp; </div>
+                <button type="submit" id="send-12" class="btn btn-block">Send</button>
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <input type="text" id="result-12" placeholder="Result">
+                <div>&nbsp;&nbsp;
+                    <i class="fas fa-arrow-right"></i>
+                    &nbsp;&nbsp;</div>
+                <button type="submit" id="clear-12" class="btn btn-block">Clear</button>
+            </div>
+        <div>
+    </section>
+
+   
+
+   
+
+
+    <script src="calculator.js"></script>
+
+    
+
+
+</body>
+
+</html>
